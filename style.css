@@ -14,14 +14,14 @@ body{
 h1{
     font-size: 67px;
     text-align: center;
-    margin:20px;
+    margin:15px;
     color:#51c4d3;
     text-shadow: 2px 1px 2px black;
 }
 h2{
     font-size: 36px;
     text-align: center;
-    margin:20px;
+    margin:15px;
     color:#00539F;
     text-shadow: 2px 1px 2px black;
 }
@@ -39,11 +39,11 @@ td{
 }
 
 table{
-  margin: 1cm 140px;
+  margin: 20px 140px;
 }
 
 .container{
-  margin:0px 190px;
+  margin:0px 250px;
   border: none;
 }
 
@@ -69,10 +69,16 @@ table{
 input,button{
   outline-style:none;
   border-radius: 7px;
-  font-size: 20px;
+  font-size: 15px;
   background-color: #eeebdd;
 }
 label{
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
+}
+
+a{
+  margin:0 250px;
+  text-decoration: none;
+  color: black;
 }
