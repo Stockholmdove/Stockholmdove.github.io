@@ -1,32 +1,51 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <title>My first styled page</title>
-  <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js"></script>
+        <title>Marvel Hero Puzzle</title>
 </head>
 
 <body>
+        <h1>Here's a simple area module puzlle</h1>
+        <h2>CLICK THE ICON to get their directions<br>
+        Enter and check your anwser</h2>
+        <table style="border-spacing: 0;border-collapse: collapse;">
+           <tr>
+               <td>&nbsp;</td>
+               <td><img src="hulk.png" width="75px"onclick="f('hulkDirec')"></td>
+               <div id="hulkDirec" style="display: none;">Hulk:(me+4)×(Steve+10)=All table figures combined</div>
+               <td align = center>4</td>
+           </tr>
+           <tr>
+               <td align=center>10</td>
+               <td align=center style="border: #000000 solid 3px;"bgcolor="#A0A7EB">200</td>
+               <td align=center style="border: #000000 solid 3px;"bgcolor="#FFEABB">40</td>
+           </tr>
+           <tr>
+               <td align=center><img src="capt.png" width="80px" onclick="f('captDirect')"></td>
+               <div id="captDirect" style="display: none;">Captain:Four times me equals 24</div>
+               <td align= center style="border: #000000 solid 3px;"bgcolor="#EAFDBD"><img src="Iron.png" width="80px" onclick="f('ironDirect')"></td>
+               <div id="ironDirect" style="display: none;">Iron Man:Hulk × Steve = me</div>
+               <td align=center style="border: #000000 solid 3px;"bgcolor="#FFB6C1">24</td>
+           </tr>
+       </table>
+       <div class="container">
+           <label>Hulk</label>
+           <input type="text" id="hulkValue" placeholder="Enter Your Answer">
+           <button type="button" onclick="hulkVerify()">check</button>
+           <p id="hulk"></p>
+           <label>Capt.America</label>
+           <input type="text" id="captValue" placeholder="Enter Your Answer">
+           <button type="button" onclick="captVerify()">check</button>
+           <p id="capt"></p>
+           <label>Iron Man</label>
+           <input type="text" id="ironManValue" placeholder="Enter Your Answer">
+           <button type="button" onclick="ironVerify()">check</button>
+           <p id="iron"></p>
+       </div>
+</body>
 
-  <ul class="navbar">
-    <li><a href="http://www.cuc.edu.cn">Home page</a>
-      <li><a href="musings.html">Musings</a>
-        <li><a href="town.html">My town</a>
-          <li><a href="links.html">Links</a>
-          </ul>
-
-          <h1>My first styled page</h1>
-
-          <p>Welcome to my styled page!
-
-            <p>It lacks images, but at least it has style.
-              And it has links, even if they don't go
-              anywhere&hellip;
-
-              <p>There should be more here, but I don't know
-                what yet.
-
-                <address>Made 5 April 2004<br>
-                  by myself.</address>
-
-                </body>
-                </html>
+</html>
