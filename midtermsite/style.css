@@ -38,29 +38,25 @@ p {
 }
 #main_header_sticky .row .content {padding: 0;}
 .dark {background:#FAEBD7;}
-#hero {
+
+.box {
+  width: 100%;
+  height: 750px;
+  background-color: white;
   position: relative;
-  background: url(http://cityreporter.ru/wp-content/uploads/2016/09/veterinar.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  color: rgb(116, 30, 30);
-  padding-top: 110px;
-  min-height: 500px;
-  letter-spacing: 2px;
-  font-family: "Oswald", sans-serif;
+  z-index: -1;
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-position: right, top;
 }
-#hero h1 {
-  font-size: 50px;
-  line-height: 1.3;
-}
-#hero h1 span {
-  font-size: 25px;
-  color: black;
-  border-bottom: 2px solid #ffffff;
-  padding-bottom: 12px;
-  line-height: 3;
+
+.text {
+  position: absolute;
+  width: 60%;
+  line-height: 20vh;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-family: 'Kirang Haerang', cursive;
 }
 #main_header_sticky {
   position: fixed;
@@ -261,7 +257,7 @@ html {
 }
 .timeline--entry__title {
   color: white;
-  background-color: #202c41;
+  background-color: #794421;
   font-weight: 300;
   font-size: 1rem;
   padding: 1em;
@@ -275,10 +271,10 @@ html {
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   left: -1em;
-  border-right: 10px solid #202c41;
+  border-right: 10px solid #794421;
 }
 .timeline--entry__detail {
-  background-color: #c6494d;
+  background-color: burlywood;
   color: aliceblue;
   padding: 1em;
   margin: 0;
@@ -327,7 +323,7 @@ html {
     }
     .timeline--entry:nth-of-type(even):not(:nth-of-type(odd)) .timeline--entry__title:before {
       left: 100%;
-      border-left: 10px solid #202c41;
+      border-left: 10px solid #794421;
       border-right: 0;
     }
     .timeline--entry:nth-of-type(even):before {
@@ -350,7 +346,7 @@ html {
   }
   
   a:hover, a:active {
-    color: aquamarine;
+    color: burlywood;
   }
   
   a:link, a:visited {

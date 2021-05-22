@@ -50,6 +50,7 @@ $('.scrollup').click(function () {
     }, 600);
     return false;
 });
+
 /* NAVIGATION ACTIVE STATE IN SECTION AREA*/
 var sections = $('section'), nav = $('nav'), nav_height = nav.outerHeight();
  
