@@ -25,14 +25,14 @@ p {
   line-height: 2;
 }
 .row {
-  width: 100%;  
+  width: 100%;
   margin: 0 auto;
   position: relative;
   padding: 0 2%;
 }
 .content {
   max-width: 940px;
-  width: 100%;  
+  width: 100%;
   margin: 0 auto;
   padding: 50px 2% 50px;
 }
@@ -228,6 +228,10 @@ html {
 }
 
 .wrapper {
+  background-image: url(Cupid.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 300px;
   margin: 3.125em auto;
   padding: 1em 5em 1em;
   max-width: 1000px;
@@ -340,38 +344,44 @@ html {
   transform: translate(0,-50%);
   padding-left: 1vw;
   }
-  
+
   a{
     color: #d76a3e;
   }
-  
+
   a:hover, a:active {
     color: burlywood;
   }
-  
+
   a:link, a:visited {
     text-decoration: none;
   }
 
   /* FAQ style */
 
+  #FAQ{
+    background-image: url(Scratch.png);
+    background-repeat: no-repeat;
+    background-position:bottom left;
+    background-size: 200px;
+  }
   .faq-title p {
     padding: 0 190px;
     margin-bottom: 10px;
   }
-  
+
   .faq {
     background: #ffffff;
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
     border-radius: 4px;
   }
-  
+
   .faq .card {
     border: none;
     background: none;
     border-bottom: 1px dashed #cee1f8;
   }
-  
+
   .faq .card .card-header {
     padding: 0px;
     border: none;
@@ -381,7 +391,7 @@ html {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
   }
-  
+
   .faq .card .card-header:hover {
     background: rgba(233, 30, 99, 0.1);
     padding-left: 10px;
@@ -405,7 +415,7 @@ html {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  
+
   .faq .card .card-header .faq-title .badge {
     display: inline-block;
     width: 20px;
@@ -420,7 +430,7 @@ html {
     font-size: 12px;
     margin-right: 20px;
   }
-  
+
   .faq .card .card-body {
     padding: 30px;
     padding-left: 35px;
@@ -432,11 +442,11 @@ html {
     letter-spacing: 1px;
     border-top: 1px solid #f3f8ff;
   }
-  
+
   .faq .card .card-body p {
     margin-bottom: 14px;
   }
-  
+
   @media (max-width: 991px) {
     .faq {
       margin-bottom: 30px;
@@ -446,10 +456,10 @@ html {
       margin-top: 10px;
     }
   }
-  
+
 
   /* Contact Card */
-  
+
   form {
     max-width: 600px;
     text-align: center;
@@ -491,21 +501,21 @@ html {
   form textarea {
     height: 126px;
   }
-  
+
   .half {
     float: left;
     width: 48%;
     margin-bottom: 1em;
   }
-  
+
   .right {
     width: 50%;
   }
-  
+
   .left {
     margin-right: 2%;
   }
-  
+
   @media (max-width: 480px) {
     .half {
       width: 100%;
@@ -519,10 +529,7 @@ html {
     content: " ";
     display: table;
   }
-  
+
   .cf:after {
     clear: both;
   }
-  
-
-  
