@@ -1,5 +1,6 @@
 ﻿<!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -48,6 +49,7 @@
       <div class="search-box">
         <div class="container">
           <div class="form">
+            <h3><img src="images/avatar.png"></h3>
             <h3>个人中心</h3>
             <input type="search" placeholder="请在此输入 ">
             <input type="submit" value="搜索">
@@ -56,17 +58,15 @@
           <div class="search-events">
             <ul>
               <li>
-                <h5><a href="#">新消息</a></h5>
-                <!-- <small>15 August – 31 October 2020</small> </li> -->
+                <h5><a href="#">新消息</a></h5></li>
               <li>
-                <h5><a href="#">粉丝</a></h5>
-                <!-- <small>15 August – 31 October 2020</small> </li> -->
+                <h5><a href="#">粉丝</a></h5></li>
               <li>
-                <h5><a href="#">我的领养</a></h5>
-                <!-- <small>15 August – 31 October 2020</small> </li> -->
+                <h5><a href="adopt-detail.html">我的领养</a></h5></li>
               <li>
-                <h5><a href="#">我的地址</a></h5>
-                <!-- <small>15 August – 31 October 2020</small> </li> -->
+                <h5><a href="#">我的地址</a></h5></li>
+              <li>
+                <h5><a href="#">申请历史</a></h5></li>
             </ul>
           </div>
           <!-- end search-events -->
@@ -81,13 +81,12 @@
         <!-- end logo -->
         <div class="inner">
           <div class="widget">
-            <figure><img src="images/image07.jpg" alt="Image"></figure>
-            <p>这里是团队介绍，手机浏览就没这部分了，如果愿意也可以放照片</p>
+            <p>团队介绍：<br><br>导盲犬在中国是比国宝熊猫还稀少的存在，我国的导盲犬事业从2006年开始发展，但截止目前却不足200只，与此同时却有1700多万视障人士。我们常常看到导盲犬出行受阻的新闻，事实上人们的担忧并无必要。因为截止目前，世界上没有任何一例导盲犬伤人的案例。<br><br>因此，我们希望开发这个“云养导盲犬”的网站，一方面进行导盲犬的科普，另一方面为中国导盲犬公益事业的建设筹集资金，助力导盲犬的培养和残障人士的出行，与更多人共同打破残障人士在社会上“寸步难行”的局面。</p>
           </div>
           <!-- end widget -->
           <div class="widget">
-            <h6 class="widget-title">小组名字</h6>
-            <p>SLOGAN(maybe</p>
+            <h6 class="widget-title">Buddies</h6>
+            <p>Let me be your eyes.</p>
           </div>
           <!-- end widget -->
         </div>
@@ -138,13 +137,235 @@
       <br>
       <br>
       <br>
-      <br>
-      <br>
-      <iframe class="airtable-embed" src="https://airtable.com/embed/shrywvHheKOr4a0gy?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
- 
+      <div class="tcontainer">
+        <div class="tnavbar">
+          <a href="#">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </a>
+          <div class="profile-pic">
+            <img src="images/avatar.png" alt="" />
+            <div class="notification"></div>
+          </div>
+          <span>领养进度</span>
+        </div>
+        <div class="theader">
+          <div class="color-overlay">
+            <div class="day-number" style="font-size: 45px;">钱钱</div>
+            <div class="date-right">
+              <div class="day-name" style="font-size: 20px">当前认养</div>
+              <div class="month">剩余天数：103天</div>
+            </div>
+          </div>
+          <div class="actionbutton">+</div>
+        </div>
 
-      
+        <div class="timeline">
+          <ul>
+            <li>
+              <div class="bullet pink"></div>
+              <div class="time">7月14日</div>
+              <div class="desc">
+                <h3>钱钱在今天的衔取训练中表现优异，在28只狗狗中排名第二!</h3>
+              </div>
+            </li>
+            <li>
+              <div class="bullet green"></div>
+              <div class="time">7月12日</div>
+              <div class="desc">
+                <h3>钱钱在噪声训练中表现淡定，真是一只勇敢的狗狗。</h3>
+                <div class="people">
+                  <img src="images/post.png" alt="" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="bullet orange"></div>
+              <div class="time">7月10日</div>
+              <div class="desc">
+                <h3>钱钱在社会化训练中表现优异，已经很熟悉城市的交通工具和公共场所啦！跟随训导员一起乘坐巴士、的士和地铁去了图书馆、菜市场、公园、餐厅、入境处、诊所....今天你有偶遇钱钱吗？</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <style>
+        .tcontainer {
+          max-width: 450px;
+          max-height: 700px;
+          overflow: hidden;
+          margin: 30px auto 0;
+          box-shadow: 0 0 40px #a0a0a0;
+          font-family: "Open Sans", sans-serif;
+        }
 
+        .tnavbar {
+          background: #F93B69;
+          color: #fff;
+          padding: 1em 0.5em;
+        }
+
+        .tnavbar a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 1.3em;
+          float: left;
+        }
+
+        .tnavbar span {
+          font-size: 1.1em;
+          font-weight: 300;
+          display: block;
+          text-align: center;
+        }
+
+        .profile-pic {
+          width: 30px;
+          height: 30px;
+          display: inline-block;
+          float: right;
+          position: relative;
+        }
+
+        .profile-pic img {
+          width: 100%;
+          border-radius: 50%;
+        }
+
+        .notification {
+          position: absolute;
+          width: 5px;
+          height: 5px;
+          border-radius: 50%;
+          top: 2px;
+          right: 2px;
+          background: #ffffff;
+        }
+
+        .theader {
+          background: url(images/bg.jpg);
+          background-size: cover;
+          color: #fff;
+          position: relative;
+        }
+
+        .color-overlay {
+          padding: 3em 2em;
+          box-sizing: border-box;
+          background: rgba(155, 94, 122, 0.5);
+        }
+
+        .actionbutton {
+          position: absolute;
+          background: #F93B69;
+          width: 50px;
+          height: 50px;
+          font-size: 3em;
+          font-weight: 300;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          bottom: -25px;
+          right: 20px;
+        }
+
+        .day-number {
+          font-size: 4em;
+          display: inline-block;
+          margin-right: 15px;
+        }
+
+        .date-right {
+          display: inline-block;
+        }
+
+        .day-name {
+          font-size: 1.6em;
+        }
+
+        .month {
+          text-transform: uppercase;
+          font-weight: 300;
+          font-size: 0.6em;
+          letter-spacing: 2px;
+          margin-top: 2px;
+        }
+
+        .timeline ul {
+          padding: 1em 0 0 2em;
+          margin: 0;
+          list-style: none;
+          position: relative;
+        }
+
+        .timeline ul::before {
+          content: " ";
+          height: 100%;
+          width: 1px;
+          background-color: #d9d9d9;
+          position: absolute;
+          top: 0;
+          left: 2.5em;
+          z-index: -1;
+        }
+
+        .timeline li div {
+          display: inline-block;
+          margin: 1em 0;
+          vertical-align: top;
+        }
+
+        .timeline .bullet {
+          width: 1em;
+          height: 1em;
+          box-sizing: border-box;
+          border-radius: 50%;
+          background: #fff;
+          z-index: 1;
+          margin-right: 1em;
+        }
+
+        .timeline .bullet.pink {
+          border: 2px solid #F93B69;
+        }
+
+        .timeline .bullet.green {
+          border: 2px solid #B0E8E2;
+        }
+
+        .timeline .bullet.orange {
+          border: 2px solid #EB8B6E;
+        }
+
+        .timeline .time {
+          width: 20%;
+          font-size: 0.75em;
+          padding-top: 0.25em;
+        }
+
+        .timeline .desc {
+          width: 50%;
+        }
+
+        .timeline h3 {
+          font-size: 0.9em;
+          font-weight: 400;
+          margin: 0;
+        }
+
+        .timeline h4 {
+          margin: 0;
+          font-size: 0.7em;
+          font-weight: 400;
+          color: #808080;
+        }
+
+        .timeline .people img {
+          width: 120px;
+          height: 120px;
+          border-radius: 10%;
+        }
+      </style>
       <footer class="footer">
         <div class="container">
           <div class="row">
@@ -163,7 +384,8 @@
               <ul class="social-media">
                 <li><a href="https://www.igdf.org.uk/"><i class="fa fa-handshake"></i>国际导盲犬协会</a></li>
                 <li><a href="http://www.cwdma.org/"><i class="fa fa-handshake"></i>中国工作犬管理协会</a></li>
-                <li><a href="http://www.chinaguidedog.org/pages/index.php?Itemid=8170"><i class="fa fa-handshake"></i>中国导盲犬大连培训基地</a></li>
+                <li><a href="http://www.chinaguidedog.org/pages/index.php?Itemid=8170"><i
+                      class="fa fa-handshake"></i>中国导盲犬大连培训基地</a></li>
                 <li><a href="http://www.shguidedogs.com/"><i class="fa fa-handshake"></i>上海市导盲犬</a></li>
               </ul>
             </div>
@@ -182,8 +404,8 @@
         </div>
         <!-- end container -->
         <div class="footer-bottom">
-          <div class="container"> <span class="copyright">© 2021 BUDDY </span> <span
-              class="creation">Site created By <a href="http://www.bootstrapmb.com/">bootstrapmb</a></span> </div>
+          <div class="container"> <span class="copyright">© 2021 BUDDY </span> <span class="creation">Site created By <a
+                href="http://www.bootstrapmb.com/">bootstrapmb</a></span> </div>
           <!-- end container -->
         </div>
         <!-- end footer-bottom -->
@@ -204,5 +426,16 @@
   <script src="js/swiper.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
+<script>
+  $(".option__button").on("click", function () {
+    $(".option__button").removeClass("selected");
+    $(this).addClass("selected");
+    if ($(this).hasClass("option--grid")) {
+      $(".results-section").attr("class", "results-section results--grid");
+    } else if ($(this).hasClass("option--list")) {
+      $(".results-section").attr("class", "results-section results--list");
+    }
+  });
+</script>
 
 </html>
