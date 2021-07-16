@@ -57,15 +57,20 @@
           <div class="search-events">
             <ul>
               <li>
-                <h5><a href="#">新消息</a></h5></li>
+                <h5><a href="#">新消息</a></h5>
+              </li>
               <li>
-                <h5><a href="#">粉丝</a></h5></li>
+                <h5><a href="#">粉丝</a></h5>
+              </li>
               <li>
-                <h5><a href="adopt-detail.html">我的领养</a></h5></li>
+                <h5><a href="adopt-detail.html">我的领养</a></h5>
+              </li>
               <li>
-                <h5><a href="#">我的地址</a></h5></li>
+                <h5><a href="#">我的地址</a></h5>
+              </li>
               <li>
-                <h5><a href="#">申请历史</a></h5></li>
+                <h5><a href="#">申请历史</a></h5>
+              </li>
             </ul>
           </div>
           <!-- end search-events -->
@@ -80,7 +85,9 @@
         <!-- end logo -->
         <div class="inner">
           <div class="widget">
-            <p>团队介绍：<br><br>导盲犬在中国是比国宝熊猫还稀少的存在，我国的导盲犬事业从2006年开始发展，但截止目前却不足200只，与此同时却有1700多万视障人士。我们常常看到导盲犬出行受阻的新闻，事实上人们的担忧并无必要。因为截止目前，世界上没有任何一例导盲犬伤人的案例。<br><br>因此，我们希望开发这个“云养导盲犬”的网站，一方面进行导盲犬的科普，另一方面为中国导盲犬公益事业的建设筹集资金，助力导盲犬的培养和残障人士的出行，与更多人共同打破残障人士在社会上“寸步难行”的局面。</p>
+            <p>|
+              团队介绍<br><br>导盲犬在中国是比国宝熊猫还稀少的存在，我国的导盲犬事业从2006年开始发展，但截止目前却不足200只，与此同时却有1700多万视障人士。我们常常看到导盲犬出行受阻的新闻，事实上人们的担忧并无必要。因为截止目前，世界上没有任何一例导盲犬伤人的案例。<br><br>因此，我们希望开发这个“云养导盲犬”的网站，一方面进行导盲犬的科普，另一方面为中国导盲犬公益事业的建设筹集资金，助力导盲犬的培养和残障人士的出行，与更多人共同打破残障人士在社会上“寸步难行”的局面。
+            </p>
           </div>
           <!-- end widget -->
           <div class="widget">
@@ -450,6 +457,103 @@
         <!-- end horizontal-scroll -->
       </section>
       <!-- end content-section -->
+      <section class="content-section no-bottom-spacing bottom-white" data-background="#fff">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <div class="section-title text-center">
+                <figure><img src="images/title-shape.png" alt="Image"></figure>
+                <h2 style="font-size: 60px;">各国导盲犬数量及普及率</h2>
+                <div style="height:300px;width:100%;">
+                  <canvas id="chartjs-combo-chart"></canvas>
+                </div>
+                <script src="Chart.min.js"></script>
+                <script>
+                  window.chartColors = {
+                    red: 'rgb(249, 135, 18)',
+                    orange: 'rgb(255, 159, 64)',
+                    yellow: 'rgb(255, 205, 86)',
+                    green: 'rgb(255, 212, 63)',
+                    blue: 'rgb(107, 122, 143)',
+                    purple: 'rgb(153, 102, 255)',
+                    grey: 'rgb(201, 203, 207)'
+                  };
+                  window.randomScalingFactor = function () {
+                    return (Math.random() > 0.5 ? 1.0 : -1.0) * Math.round(Math.random() * 100);
+                  };
+                  var comboConfig = {
+                    type: 'bar',
+                    data: {
+                      labels: ["美国", "英国", "法国", "澳大利亚", "德国", "中国"],
+                      datasets: [{
+                        type: 'line',
+                        label: '导盲犬普及率（1/10000）',
+                        borderColor: window.chartColors.blue,
+                        borderWidth: 2,
+                        fill: false,
+                        data: [
+                          31,
+                          25,
+                          6,
+                          17,
+                          12,
+                          0.1,
+                        ]
+                      }, {
+                        type: 'bar',
+                        label: '视障人数（百万人）',
+                        backgroundColor: window.chartColors.red,
+                        data: [
+                          3.22,
+                          2,
+                          1.7,
+                          0.575,
+                          0.5,
+                          17.31,
+                        ],
+                        borderColor: 'white',
+                        borderWidth: 2
+                      }, {
+                        type: 'bar',
+                        label: '导盲犬数量（千只）',
+                        backgroundColor: window.chartColors.green,
+                        data: [
+                          10,
+                          5,
+                          1,
+                          1,
+                          0.6,
+                          0.2,
+                        ]
+                      }]
+                    },
+                    options: {
+                      responsive: true,
+                      maintainAspectRatio: false,
+                      title: {
+                        display: true,
+                      },
+                      tooltips: {
+                        mode: 'index',
+                        intersect: true
+                      }
+                    }
+                  };
+
+                  var comboCtx = document.getElementById("chartjs-combo-chart").getContext("2d");
+                  window.myCombo = new Chart(comboCtx, comboConfig);
+
+                </script>
+              </div>
+            </div>
+            <!-- end col-4 -->
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end container -->
+      </section>
+      <!-- end content-section -->
+
       <section class="content-section" data-background="#fffbf7">
         <div class="container">
           <div class="row align-items-center">
@@ -676,7 +780,8 @@
               <ul class="social-media">
                 <li><a href="https://www.igdf.org.uk/"><i class="fa fa-handshake"></i>国际导盲犬协会</a></li>
                 <li><a href="http://www.cwdma.org/"><i class="fa fa-handshake"></i>中国工作犬管理协会</a></li>
-                <li><a href="http://www.chinaguidedog.org/pages/index.php?Itemid=8170"><i class="fa fa-handshake"></i>中国导盲犬大连培训基地</a></li>
+                <li><a href="http://www.chinaguidedog.org/pages/index.php?Itemid=8170"><i
+                      class="fa fa-handshake"></i>中国导盲犬大连培训基地</a></li>
                 <li><a href="http://www.shguidedogs.com/"><i class="fa fa-handshake"></i>上海市导盲犬</a></li>
               </ul>
             </div>
@@ -695,8 +800,8 @@
         </div>
         <!-- end container -->
         <div class="footer-bottom">
-          <div class="container"> <span class="copyright">© 2021 BUDDY </span> <span
-              class="creation">Site created By <a href="http://www.bootstrapmb.com/">bootstrapmb</a></span> </div>
+          <div class="container"> <span class="copyright">© 2021 BUDDY </span> <span class="creation">Site created By <a
+                href="http://www.bootstrapmb.com/">bootstrapmb</a></span> </div>
           <!-- end container -->
         </div>
         <!-- end footer-bottom -->
