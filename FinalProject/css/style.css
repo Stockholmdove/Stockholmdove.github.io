@@ -1088,7 +1088,7 @@ button[type="submit"] i {
   transform: translateX(-140%);
 }
 .slider .slider-texts .svg-morph path {
-  fill: #f98712;
+  fill: #FFB74D;
   animation-name: svg-morph;
   -webkit-animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
   -moz-animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
