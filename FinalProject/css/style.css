@@ -54,8 +54,7 @@
 	
 
 */
-@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=DM+Sans:wght@400;500;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&family=Noto+Serif+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300&family=ZCOOL+XiaoWei&display=swap');
 * {
   outline: none !important;
 }
@@ -64,7 +63,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'DM Sans', sans-serif;
-  /* font-family: 'Noto Sans SC', sans-serif; */
   font-size: 17px;
 }
 
@@ -236,7 +234,7 @@ input[type="submit"] {
   font-size: 14px;
   font-weight: 600;
   color: #080808;
-  background: #f98712;
+  background: #FFB74D;
   border: none;
   padding: 0 50px;
 }
@@ -247,7 +245,7 @@ button[type="submit"] {
   font-size: 14px;
   font-weight: 600;
   color: #080808;
-  background: #f98712;
+  background: #FFB74D;
   border: none;
   padding: 0 50px;
 }
@@ -310,7 +308,7 @@ button[type="submit"] i {
   align-items: center;
   justify-content: center;
   margin-right: 15px;
-  background: #f98712;
+  background: #FFB74D;
   border-radius: 50%;
   font-family: "Font Awesome 5 Pro";
   font-size: 13px;
@@ -404,7 +402,7 @@ button[type="submit"] i {
   width: 100%;
   display: block;
   color: #fff;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   font-size: 18px;
   text-align: center;
   margin-top: 15px;
@@ -562,7 +560,7 @@ button[type="submit"] i {
 .search-box .container .form h3 {
   width: 100%;
   display: block;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   margin-bottom: 30px;
   font-size: 30px;
 }
@@ -597,7 +595,7 @@ button[type="submit"] i {
   width: 100%;
   display: block;
   font-size: 20px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   font-weight: 400;
 }
 .search-box .container .search-events ul li h5 a {
@@ -730,9 +728,9 @@ button[type="submit"] i {
   width: 100%;
   display: block;
   font-size: 26px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   margin-bottom: 15px;
-  color: #f98712;
+  color: #FFB74D;
 }
 .side-widget .display-mobile {
   width: 100%;
@@ -760,7 +758,7 @@ button[type="submit"] i {
 }
 .side-widget .display-mobile .custom-menu ul li {
   width: 100%;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   font-size: 20px;
 }
 .side-widget .display-mobile .custom-menu ul li a {
@@ -770,7 +768,7 @@ button[type="submit"] i {
 }
 .side-widget .display-mobile .custom-menu ul li a:hover {
   text-decoration: none;
-  color: #f98712;
+  color: #FFB74D;
 }
 .side-widget .display-mobile .site-menu {
   width: 100%;
@@ -784,7 +782,7 @@ button[type="submit"] i {
 }
 .side-widget .display-mobile .site-menu ul li {
   width: 100%;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   font-size: 20px;
 }
 .side-widget .display-mobile .site-menu ul li a {
@@ -794,7 +792,7 @@ button[type="submit"] i {
 }
 .side-widget .display-mobile .site-menu ul li a:hover {
   text-decoration: none;
-  color: #f98712;
+  color: #FFB74D;
 }
 
 /* NAVBAR */
@@ -826,7 +824,7 @@ button[type="submit"] i {
   line-height: 56px;
 }
 .navbar.light .navbar-button a:hover {
-  border-color: #f98712;
+  border-color: #FFB74D;
   background: none;
   color: #fff;
 }
@@ -880,12 +878,12 @@ button[type="submit"] i {
   bottom: -4px;
   height: 4px;
   width: 0;
-  background: #f98712;
+  background: #FFB74D;
   transition: width .25s ease;
 }
 .navbar .custom-menu ul li a:hover:before {
   width: 50%;
-  background: #f98712;
+  background: #FFB74D;
   transition: width .25s ease;
 }
 .navbar .custom-menu ul li a:hover:after {
@@ -933,12 +931,12 @@ button[type="submit"] i {
   bottom: -4px;
   height: 4px;
   width: 0;
-  background: #f98712;
+  background: #FFB74D;
   transition: width .25s ease;
 }
 .navbar .site-menu ul li a:hover:before {
   width: 50%;
-  background: #f98712;
+  background: #FFB74D;
   transition: width .25s ease;
 }
 .navbar .site-menu ul li a:hover:after {
@@ -970,7 +968,7 @@ button[type="submit"] i {
   line-height: 60px;
   display: inline-block;
   padding: 0 40px;
-  background: #f98712;
+  background: #FFB74D;
   color: #080808;
   font-size: 14px;
   font-weight: 700;
@@ -1040,7 +1038,7 @@ button[type="submit"] i {
 .slider .kinetic-texts .swiper-slide h1 {
   font-size: 126px;
   font-weight: 400;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   line-height: 1;
   margin-bottom: 30px;
 }
@@ -1109,9 +1107,7 @@ button[type="submit"] i {
 .slider .slider-texts .swiper-slide h1 {
   font-size: 126px;
   font-weight: 400;
-  /* font-family: 'Cinzel', serif; */
-  /* font-family: 'Noto Serif SC', serif; */
-  font-family: 'Noto Sans SC', sans-serif;
+  font-family: 'ZCOOL XiaoWei', serif;
   line-height: 1;
   margin-bottom: 30px;
 }
@@ -1164,7 +1160,7 @@ button[type="submit"] i {
   justify-content: center;
   align-items: center;
   font-size: 30px;
-  background: #f98712;
+  background: #F98712;
   color: #ffd43f;
   margin-left: auto;
   margin-right: 8px;
@@ -1181,7 +1177,7 @@ button[type="submit"] i {
 }
 .slider .slider-nav .button-prev:hover {
   background: #ffd43f;
-  color: #f98712;
+  color: #F98712;
 }
 .slider .slider-nav .button-next {
   width: 64px;
@@ -1190,7 +1186,7 @@ button[type="submit"] i {
   justify-content: center;
   align-items: center;
   font-size: 30px;
-  background: #f98712;
+  background: #F98712;
   color: #ffd43f;
   position: relative;
   z-index: 3;
@@ -1205,7 +1201,7 @@ button[type="submit"] i {
 }
 .slider .slider-nav .button-next:hover {
   background: #ffd43f;
-  color: #f98712;
+  color: #F98712;
 }
 
 /* PLAY NOW */
@@ -1287,7 +1283,7 @@ button[type="submit"] i {
 .page-header .inner h1 {
   font-size: 126px;
   font-weight: 400;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   line-height: 1;
   margin-bottom: 30px;
   position: relative;
@@ -1310,7 +1306,7 @@ button[type="submit"] i {
   transform: translateX(-140%);
 }
 .page-header .inner .svg-morph path {
-  fill: #f98712;
+  fill: #FFB74D;
   animation-name: svg-morph;
   -webkit-animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
   -moz-animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
@@ -1418,7 +1414,7 @@ button[type="submit"] i {
   display: block;
   margin-bottom: 0;
   font-size: 92px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   letter-spacing: -2px;
   line-height: 1;
 }
@@ -1452,12 +1448,12 @@ button[type="submit"] i {
   bottom: -4px;
   height: 4px;
   width: 0;
-  background: #f98712;
+  background: #FFB74D;
   transition: width .25s ease;
 }
 .custom-link:hover:before {
   width: 50%;
-  background: #f98712;
+  background: #FFB74D;
   transition: width .25s ease;
 }
 .custom-link:hover:after {
@@ -1475,7 +1471,7 @@ button[type="submit"] i {
   height: 70px;
   line-height: 70px;
   display: inline-block;
-  background: #f98712;
+  background: #FFB74D;
   padding: 0 40px;
   color: #080808;
   font-size: 14px;
@@ -1620,7 +1616,7 @@ button[type="submit"] i {
 .side-icon-list ul li .content h5 {
   width: 100%;
   display: block;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   font-size: 22px;
   margin-bottom: 15px;
   font-weight: 600;
@@ -1677,7 +1673,7 @@ button[type="submit"] i {
   width: 100%;
   display: block;
   font-size: 30px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
 }
 .image-box-carousel .content-box .custom-link {
   color: #999;
@@ -1704,14 +1700,14 @@ button[type="submit"] i {
   z-index: 0;
   font-size: 14px;
   font-weight: 500;
-  background: #f98712;
+  background: #FFB74D;
   border-radius: 40px;
 }
 .side-content h2 {
   width: 100%;
   display: block;
   margin-bottom: 20px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   font-size: 52px;
 }
 .side-content p {
@@ -1777,7 +1773,7 @@ button[type="submit"] i {
   width: 100%;
   display: block;
   font-size: 52px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   margin-bottom: 30px;
 }
 .side-list ul {
@@ -1837,7 +1833,7 @@ button[type="submit"] i {
   display: block;
   margin-bottom: 0;
   font-size: 52px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   letter-spacing: -2px;
   line-height: 1;
 }
@@ -1877,7 +1873,7 @@ button[type="submit"] i {
 }
 .counter-box .odometer {
   font-size: 82px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   display: inline-block;
   line-height: 1;
   position: relative;
@@ -1887,7 +1883,7 @@ button[type="submit"] i {
   content: "";
   width: 70px;
   height: 70px;
-  background: #f98712;
+  background: #FFB74D;
   border-radius: 50%;
   position: absolute;
   right: -50px;
@@ -1896,7 +1892,7 @@ button[type="submit"] i {
 }
 .counter-box .value {
   font-size: 82px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   display: inline-block;
   line-height: 1;
   margin-left: 10px;
@@ -1964,7 +1960,7 @@ button[type="submit"] i {
   width: 100%;
   display: block;
   font-size: 28px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   margin-bottom: 10px;
 }
 .image-content-box .content-box p {
@@ -2053,7 +2049,7 @@ button[type="submit"] i {
 .collection-box h4 {
   width: 100%;
   display: block;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   font-size: 30px;
   margin-bottom: 20px;
 }
@@ -2134,7 +2130,7 @@ button[type="submit"] i {
   z-index: 0;
   font-size: 14px;
   font-weight: 500;
-  background: #f98712;
+  background: #FFB74D;
   border-radius: 40px;
 }
 .exhibition-box figure .info figure {
@@ -2182,7 +2178,7 @@ button[type="submit"] i {
 .exhibition-box .content-box h4 {
   width: 100%;
   display: block;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   font-size: 30px;
   margin-bottom: 20px;
 }
@@ -2215,14 +2211,14 @@ button[type="submit"] i {
   width: 100%;
   display: block;
   margin-bottom: 20px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   font-size: 56px;
 }
 .text-box h3 {
   width: 100%;
   display: block;
   margin-bottom: 20px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   font-size: 46px;
 }
 .text-box p {
@@ -2245,7 +2241,7 @@ button[type="submit"] i {
   width: 100%;
   display: block;
   margin-bottom: 20px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   font-size: 26px;
   font-weight: 600;
 }
@@ -2302,7 +2298,7 @@ button[type="submit"] i {
   display: block;
   margin-bottom: 0;
   font-size: 62px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   letter-spacing: -2px;
   line-height: 1;
 }
@@ -2338,13 +2334,13 @@ button[type="submit"] i {
   border-bottom: 3px solid #080808;
   margin-right: 40px;
   float: left;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   transform: rotate(-90deg);
   font-weight: 700;
 }
 .art-slider-content .swiper-slide h3 {
   display: block;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   font-weight: 700;
   margin: 0;
 }
@@ -2418,7 +2414,7 @@ button[type="submit"] i {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background: #f98712;
+  background: #FFB74D;
   position: absolute;
   left: 30px;
   top: 30px;
@@ -2472,7 +2468,7 @@ button[type="submit"] i {
   width: 100%;
   display: block;
   font-size: 34px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   margin-bottom: 0;
 }
 .image-icon-box .content-box p {
@@ -2508,12 +2504,12 @@ button[type="submit"] i {
   bottom: 0;
   height: 4px;
   width: 0;
-  background: #f98712;
+  background: #FFB74D;
   transition: width .25s ease;
 }
 .image-icon-box .content-box a:hover:before {
   width: 50%;
-  background: #f98712;
+  background: #FFB74D;
   transition: width .25s ease;
 }
 .image-icon-box .content-box a:hover:after {
@@ -2537,7 +2533,7 @@ button[type="submit"] i {
   margin: 0;
 }
 .cta-box.dark .custom-button:hover {
-  background: #f98712;
+  background: #FFB74D;
   color: #080808;
 }
 .cta-box.dark .custom-button:hover:before {
@@ -2564,7 +2560,7 @@ button[type="submit"] i {
   display: block;
   margin-bottom: 0;
   font-size: 92px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   letter-spacing: -2px;
 }
 .cta-box h2 strong {
@@ -2590,7 +2586,7 @@ button[type="submit"] i {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  background: #f98712;
+  background: #FFB74D;
   color: #080808;
   padding: 60px;
   margin: 50px 0;
@@ -2599,7 +2595,7 @@ button[type="submit"] i {
   width: 100%;
   display: block;
   font-size: 52px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   margin-bottom: 20px;
   line-height: 1.2;
 }
@@ -2670,7 +2666,7 @@ button[type="submit"] i {
   height: 22px;
   line-height: 22px;
   display: inline-block;
-  background: #f98712;
+  background: #FFB74D;
   padding: 0 10px;
   font-size: 13px;
   font-weight: 500;
@@ -2680,7 +2676,7 @@ button[type="submit"] i {
   display: block;
   font-size: 54px;
   font-weight: 400;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   margin-bottom: 30px;
   margin-top: 10px;
 }
@@ -2699,7 +2695,7 @@ button[type="submit"] i {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background: #f98712;
+  background: #FFB74D;
   padding: 50px 0;
 }
 .newsletter-box .form {
@@ -2727,7 +2723,7 @@ button[type="submit"] i {
   display: block;
   margin-bottom: 0;
   font-size: 72px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   letter-spacing: -2px;
   line-height: 1;
 }
@@ -2757,7 +2753,7 @@ button[type="submit"] i {
 }
 .newsletter-box .form input[type="submit"] {
   width: 30%;
-  background: #f98712;
+  background: #FFB74D;
   padding: 0;
 }
 .newsletter-box .newsletter-image {
@@ -2784,7 +2780,7 @@ button[type="submit"] i {
   width: 100%;
   display: block;
   margin-bottom: 15px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   font-size: 24px;
   font-weight: 600;
 }
@@ -2830,7 +2826,7 @@ button[type="submit"] i {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  background: #f98712;
+  background: #FFB74D;
 }
 .google-maps iframe {
   width: 100%;
@@ -2880,7 +2876,7 @@ button[type="submit"] i {
   height: 22px;
   line-height: 22px;
   display: inline-block;
-  background: #f98712;
+  background: #FFB74D;
   padding: 0 10px;
   font-size: 13px;
   font-weight: 500;
@@ -2890,7 +2886,7 @@ button[type="submit"] i {
   display: block;
   font-size: 54px;
   font-weight: 400;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   margin-bottom: 30px;
   margin-top: 10px;
 }
@@ -2898,10 +2894,10 @@ button[type="submit"] i {
   width: 100%;
   display: block;
   margin: 40px 0;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   font-size: 22px;
   padding-left: 40px;
-  border-left: 4px solid #f98712;
+  border-left: 4px solid #FFB74D;
 }
 .blog-post .content-box p {
   width: 100%;
@@ -2943,7 +2939,7 @@ button[type="submit"] i {
   color: #080808;
   margin-bottom: 30px;
   padding-bottom: 30px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
 }
 .sidebar .widget .widget-title:after {
   content: "";
@@ -2972,7 +2968,7 @@ button[type="submit"] i {
 }
 .sidebar .widget form input[type="submit"] {
   margin-top: 10px;
-  background: #f98712;
+  background: #FFB74D;
   color: #fff;
 }
 .sidebar .widget .categories {
@@ -3016,7 +3012,7 @@ button[type="submit"] i {
   display: inline-block;
 }
 .pagination .page-item.active .page-link {
-  background: #f98712;
+  background: #FFB74D;
   border-color: transparent;
   color: #fff;
 }
@@ -3061,7 +3057,7 @@ button[type="submit"] i {
   font-weight: 400;
   font-size: 22px;
   margin-bottom: 20px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   position: relative;
   padding-bottom: 15px;
 }
